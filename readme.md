@@ -27,7 +27,7 @@
 ```
 
 - OPTIONAL BONUS
-  When creating a new order check if the dishName exists in the dishes resource (think importing one model in another)
+  When creating a new order check if the dishName exists in the dishes resource
 
 3.  Create auth model/controller that will allow users to log in (use express-session for auth)
 
