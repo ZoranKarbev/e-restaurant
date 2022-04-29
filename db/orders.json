@@ -1,0 +1,17 @@
+[
+	{
+		"id": "0eba4f77-9bb6-40f5-bffc-af233ed588e1",
+		"dishName": "fried chicken",
+		"status": "new"
+	},
+	{
+		"id": "0eba4f92-9bb6-40f5-bffc-af233ed588e2",
+		"dishName": "pizza",
+		"status": "cancelled"
+	},
+	{
+		"id": "0eba4f42-9bb6-40f5-bffc-af233ed588e3",
+		"dishName": "casserole",
+		"status": "done"
+	}
+]

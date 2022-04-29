@@ -1,0 +1,20 @@
+[
+	{
+		"id": "0eba4f80-9bb6-40f5-bffc-af233ed599e3",
+		"firstName": "Petar",
+		"lastName": "Petrov",
+		"age": "29",
+		"email": "petar.petrov@gmail.com",
+		"password": "petar123",
+		"role": "admin"
+	},
+	{
+		"id": "b9265b1e-e40d-4f7b-b0c8-98aaf91515ec",
+		"firstName": "Ana",
+		"lastName": "Anovska",
+		"age": "19",
+		"email": "ana.anovska@yahoo.com",
+		"password": "anaana123",
+		"role": "user"
+	}
+]

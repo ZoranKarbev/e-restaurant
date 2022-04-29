@@ -1,0 +1,32 @@
+[
+	{
+		"id": "cc544eb6-af07-4aed-921e-57cc45b9d2a6",
+		"name": "Pizza",
+		"price": 15
+	},
+	{
+		"id": "9f2e955e-ca47-46a9-b621-0b2e969e5abb",
+		"name": "Fried Chicken",
+		"lastName": 20
+	},
+	{
+		"id": "df38b0d2-e468-4028-8fef-71dbcd68b315",
+		"name": "Spaghetti",
+		"lastName": 10
+	},
+	{
+		"id": "fda2f701-34aa-4f60-8809-4ea167bdfa07",
+		"name": "Ice Cream",
+		"lastName": 5
+	},
+	{
+		"id": "08bba552-bc8b-4a87-ad73-96e47f179181",
+		"name": "Fried Rice",
+		"price": 12
+	},
+	{
+		"id": "46e14dbc-cc28-452f-a736-d54dedb00d43",
+		"name": "Grilled Pork Chops",
+		"price": 12
+	}
+]
