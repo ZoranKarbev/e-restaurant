@@ -1,4 +1,4 @@
-# Create an MVC structured eRestaurant application - part 01
+# MVC structured eRestaurant application - part 01
 
 1.  Create a dish resource and implement all the crud operations for it
 

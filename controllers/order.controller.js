@@ -1,5 +1,4 @@
 // 1. Get all Orders
-// router.get("/all", DishController.getAllDishes());
 
 // 2. Get Orders by ID
 

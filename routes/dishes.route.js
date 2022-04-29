@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const DishController = require("../controllers/dishes.controller");
+const DishController = require("../controllers/dish.controller");
 const dishPriceValidator = require("../middleware/dish-price-validator.middleware");
 const dishValidator = require("../middleware/dish-validator.middleware");
 

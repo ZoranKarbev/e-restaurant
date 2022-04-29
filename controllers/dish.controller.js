@@ -1,4 +1,4 @@
-const DishModel = require("../models/dishes.model");
+const DishModel = require("../models/dish.model");
 
 class DishController {
     // 1. Get all Dishes
