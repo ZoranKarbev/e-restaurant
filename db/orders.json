@@ -1,22 +1,27 @@
 [
-	{
-		"id": "0eba4f77-9bb6-40f5-bffc-af233ed588e1",
-		"dishName": "Fried Chicken",
-		"status": "new"
-	},
-	{
-		"id": "0eba4f92-9bb6-40f5-bffc-af233ed588e2",
-		"dishName": "Pizza",
-		"status": "cancelled"
-	},
-	{
-		"id": "0eba4f42-9bb6-40f5-bffc-af233ed588e3",
-		"dishName": "Casserole",
-		"status": "new"
-	},
-	{
-		"id": "3e9e88d0-f527-4f16-bd7a-31d7e0128878",
-		"dishName": "Spaghetti",
-		"status": "done"
-	}
+  {
+    "id": "0eba4f77-9bb6-40f5-bffc-af233ed588e1",
+    "dishName": "Fried Chicken",
+    "status": "new"
+  },
+  {
+    "id": "0eba4f92-9bb6-40f5-bffc-af233ed588e2",
+    "dishName": "Pizza",
+    "status": "cancelled"
+  },
+  {
+    "id": "0eba4f42-9bb6-40f5-bffc-af233ed588e3",
+    "dishName": "Casserole",
+    "status": "new"
+  },
+  {
+    "id": "3e9e88d0-f527-4f16-bd7a-31d7e0128878",
+    "dishName": "Spaghetti",
+    "status": "done"
+  },
+  {
+    "id": "6b2b9afc-cd5c-4858-826f-8541e159da18",
+    "dishName": "pizza",
+    "status": "new"
+  }
 ]

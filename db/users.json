@@ -1,20 +1,22 @@
 [
-	{
-		"id": "0eba4f80-9bb6-40f5-bffc-af233ed599e3",
-		"firstName": "Petar",
-		"lastName": "Petrov",
-		"age": "29",
-		"email": "petar.petrov@gmail.com",
-		"password": "petar123",
-		"role": "admin"
-	},
-	{
-		"id": "b9265b1e-e40d-4f7b-b0c8-98aaf91515ec",
-		"firstName": "Ana",
-		"lastName": "Anovska",
-		"age": "19",
-		"email": "ana.anovska@yahoo.com",
-		"password": "anaana123",
-		"role": "user"
-	}
+  {
+    "id": "fcd09eb2-e93b-4855-ae3b-26b57a6586d0",
+    "firstName": "Petar",
+    "lastName": "Petrov",
+    "age": "29",
+    "email": "petar.petrov@gmail.com",
+    "password": "$2a$10$tZ59Mu4cRG.cBMvk6h0CG.OoFJy4s7BygrvGfWiRlGOI/Dd1OauNy",
+    "role": "admin",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJmY2QwOWViMi1lOTNiLTQ4NTUtYWUzYi0yNmI1N2E2NTg2ZDAiLCJpYXQiOjE2NTE1ODg3OTQsImV4cCI6MTY1MjQ1Mjc5NH0.dS6odplitUt_PIexfrxo-V21D3hSxPfw1N72BcFoLfw"
+  },
+  {
+    "id": "91442af4-fa19-46cb-a349-8fdd902a4624",
+    "firstName": "Ana",
+    "lastName": "Anevska",
+    "age": "30",
+    "email": "ana.anevska@gmail.com",
+    "password": "$2a$10$YTp2V4uwARV/E4W5luCqGOm5KgYQm7isWTeuqe3Z0dAoGykHRCQj6",
+    "role": "user",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5MTQ0MmFmNC1mYTE5LTQ2Y2ItYTM0OS04ZmRkOTAyYTQ2MjQiLCJpYXQiOjE2NTE1ODU4NDQsImV4cCI6MTY1MjQ0OTg0NH0.3MCFRclG_uWHelpP4QLGfn6Tpc6HQ1ytHes3JHVNLBU"
+  }
 ]
