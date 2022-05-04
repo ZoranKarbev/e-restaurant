@@ -18,9 +18,7 @@ const adminValidator = async (req, res, next) => {
         } else {
             res.sendStatus(403);
         }
-
     } catch (error) {
-        console.log(error);
         res.sendStatus(403);
     }
 }

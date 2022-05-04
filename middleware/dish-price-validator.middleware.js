@@ -5,7 +5,6 @@ const dishPriceValidator = (req, res, next) => {
     } else {
         next();
     }
-
-}
+};
 
 module.exports = dishPriceValidator;

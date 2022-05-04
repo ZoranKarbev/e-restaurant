@@ -20,6 +20,6 @@ const userValidator = (req, res, next) => {
     } else {
         next();
     }
-}
+};
 
 module.exports = userValidator;

@@ -39,7 +39,7 @@ class DishController {
             const dishId = req.params.id;
             const dishUpdates = req.body;
 
-            if (!dishUpdates.name) return res.status(400).send({ msg: "\"name\" is required" })
+            if (!dishUpdates.name) return res.status(400).send({ msg: "\"name\" is required" });
             if (dishUpdates.id) return res.status(400).send({ msg: "Invalid update!" });
 
             await DishModel.updateDish(dishId, dishUpdates);
@@ -51,7 +51,7 @@ class DishController {
     // 5. Delete dish
     static async deleteDish(req, res) {
         try {
-            const dishId = req.params.id
+            const dishId = req.params.id;
             await DishModel.deleteDish(dishId);
             res.sendStatus(200);
         } catch (error) {

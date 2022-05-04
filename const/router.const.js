@@ -9,7 +9,6 @@ router.use("/dishes", dishesRouter);
 router.use("/orders", ordersRouter);
 
 router.get('*', (req, res) => {
-    console.log(req)
     res.status(404).send({ msg: "Page not found!" });
 });
 

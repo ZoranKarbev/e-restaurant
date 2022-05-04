@@ -22,11 +22,8 @@ class AuthModel {
     }
 
     static async getUserById(userId) {
-        console.log("USER ID", userId)
         const users = await this.getAllUsers();
-        console.log("USERS", users)
         const foundUser = users.find(user => user.id === userId);
-        console.log("FOUND USER", foundUser)
         return foundUser;
     }
 
@@ -39,7 +36,6 @@ class AuthModel {
 
         // Hashing the user's password
         const hashedPassword = await bcrypt.hash(userData.password, 10);
-        console.log("Hashed password", hashedPassword);
 
         // Create new User
         const newUser = new User(
@@ -49,7 +45,6 @@ class AuthModel {
             userData.email,
             hashedPassword
         )
-        console.log("This is new user: ", newUser);
 
         //Updating and saving users to db
         const updatedUsers = [...users, newUser];
@@ -57,7 +52,6 @@ class AuthModel {
 
         // Remove hashed password before sending user data to client
         const { password, ...userWithoutPassword } = newUser;
-        console.log("New user without password: ", userWithoutPassword);
         return userWithoutPassword;
     }
 
@@ -69,7 +63,6 @@ class AuthModel {
         const foundUser = users.find(user => user.email === email);
 
         if (!foundUser) return Promise.reject({ msg: "Invalid Credentials" });
-        console.log("FOUND USER", foundUser)
 
         const isPasswordValid = await bcrypt.compare(password, foundUser.password);
         if (!isPasswordValid) return Promise.reject({ msg: "Invalid Credentials" });
@@ -81,7 +74,6 @@ class AuthModel {
     // 3. Save refresh token
     static async saveRefreshToken(userId, refreshToken) {
         const users = await this.getAllUsers();
-        console.log(users)
         const updatedUsers = users.map(user => {
             if (user.id === userId) {
                 user.refreshToken = refreshToken;

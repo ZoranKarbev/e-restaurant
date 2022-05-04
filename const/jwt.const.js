@@ -1,7 +1,6 @@
 const { sign, verify } = require("jsonwebtoken");
 
 const createAccessToken = (userId, userRole) => {
-    console.log("ID", userId, "ROLE:", userRole)
     return sign({ userId, userRole }, process.env.ACCESS_TOKEN_SECRET, {
         expiresIn: "60s"
     });
@@ -14,8 +13,6 @@ const createRefreshToken = userId => {
 };
 
 const verifyAccesToken = token => {
-    console.log("TOKEN: ", token)
-
     return verify(token, process.env.ACCESS_TOKEN_SECRET);
 };
 

@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const cookieParser = require("cookie-parser");
-const globalRouter = require("./const/router.const")
+const globalRouter = require("./const/router.const");
 
 const app = express();
 const cors = require("cors");
