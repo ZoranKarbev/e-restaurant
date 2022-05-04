@@ -1,0 +1,188 @@
+{
+	"info": {
+		"_postman_id": "43db6a7e-7f81-4089-b331-5a96c39683c8",
+		"name": "eRestaurant Orders",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all Orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/orders/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"orders",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Order by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/orders/0eba4f77-9bb6-40f5-bffc-af233ed588e1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"orders",
+						"0eba4f77-9bb6-40f5-bffc-af233ed588e1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add new Order",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dishName\": \"milk\",\r\n\t\"status\": \"done\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/orders/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"orders",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Order",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"dishName\": \"milk\",\r\n    \"status\": \"canceled\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/orders/3e7dc65c-4ee6-4e22-ad57-c836a9ca7056/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"orders",
+						"3e7dc65c-4ee6-4e22-ad57-c836a9ca7056",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Order status",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"status\": \"done\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/orders/3e9e88d0-f527-4f16-bd7a-31d7e0128878/status",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"orders",
+						"3e9e88d0-f527-4f16-bd7a-31d7e0128878",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Order",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/orders/736b2724-ef31-4348-9738-fbc54f497e27",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"orders",
+						"736b2724-ef31-4348-9738-fbc54f497e27"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5MTQ0MmFmNC1mYTE5LTQ2Y2ItYTM0OS04ZmRkOTAyYTQ2MjQiLCJ1c2VyUm9sZSI6InVzZXIiLCJpYXQiOjE2NTE1ODU4NDQsImV4cCI6MTY1MTY3MjI0NH0.547o338c6sPvWjqQjrMwdAb_J7vzSUEW1Gv9kfSCsVQ",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
